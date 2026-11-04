@@ -1,40 +1,46 @@
-<!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>TP - 5 boutons JavaScript</title>
-</head><link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style1.css">
+
+    <script src="script1.js"></script>
+</head>
+
 <body>
-    <h1>Ma page interactive</h1>
 
-   <button id="btn1" onclick="direBonjour()">Dire bonjour</button>
+    <label>Nombre 1 :</label>
+    <input type="text" name="t1" id="t1" placeholder="Saisir un nombre">
 
-   <button id="btn2" onclick="afficherDate()">Afficher la date</button>
+    <br><br>
 
-   <button id="btn3" onclick="changerCouleur()">Changer la couleur</button>
+    <label>Nombre 2 :</label>
+    <input type="text" name="t2" id="t2" placeholder="Saisir un nombre">
 
-   <button id="btn4" onclick="nombreAleatoire()">Nombre aléatoire</button>
+    <br><br>
 
-   <button id="btn5" onclick="effacer()">Effacer</button>
+    <input type="text" name="resultat" id="resultat" placeholder="resultat">
 
-   <button id="btn6" onclick="verif_age()">Donnez votre âge</button>
+    <br><br>
 
-   <button id="btn7" onclick="calculerNotes()">calculer la moyenne</button>
+    <input type="text" name="pair ou impair" id="pair" placeholder="Pair ou Impair">
 
-     </div>
-
-    <div id="affichage">
-        <p id="message">Cliquez sur un bouton.</p>
-    </div>
+    <br><br>
 
 
-
+    <button onclick="somme()">Somme</button>
+    <button onclick="soustraction()">Soustraction</button>
+    <button onclick="multiplication()">Multiplication</button>
+    <button onclick="division()">Division</button>
+    <button onclick="permuter()">Permuter</button>
+    <button onclick="parite()">Parité</button>
+    <button onclick="effacer()">Effacer</button>
   
 
 
+    <br><br>
 
 
-  <script src="script.js"></script>
 
 </body>
 </html>
